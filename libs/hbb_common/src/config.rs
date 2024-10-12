@@ -101,7 +101,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["hello.xuice.top"];
-pub const PUBLIC_RS_PUB_KEY: &str = "SdYianXnSbth88ZrOV2LjgnGXb2+6Wu8JorS6U1cL78=";
+pub const PUBLIC_RS_PUB_KEY: &str = "zKd7WJkPI++kvFk392wfzuiq+TdBchHf8JJYvCiWfAk=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
     Some(key) if !key.is_empty() => key,
